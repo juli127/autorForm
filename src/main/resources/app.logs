@@ -1,0 +1,7 @@
+Driver loaded
+try to connect.....
+Connection obtained.
+statement == null ? false
+GOT after executeQuery:   <table border='1'><tr><td>1</td><td>lex@ukr.net</td><td>123</td></tr><tr><td>2</td><td>mash198@ukr.net</td><td>1234</td></tr></table>
+<table border='1'><tr><td>1</td><td>lex@ukr.net</td><td>123</td></tr><tr><td>2</td><td>mash198@ukr.net</td><td>1234</td></tr></table>
+connection was closed.....
