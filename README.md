@@ -1,5 +1,3 @@
-- src/main/java/ua/itea/ - DBWorker.java
-- src/main/resources - скриншоты нормального вывода в IDE + ошибки в JSP
-- src/main/resources/Tomcat/webapps/ROOT - jsp страницы
-
-mysql-connector-java-8.0.14.jar к проекту подключен
+Autorization form
+- when login done, login/registartion forms are disappear, logout button is shown instead
+- only admin can see all records from data base ('DB' tab), access denied for all others
