@@ -26,7 +26,7 @@ if (session != null) {
 		DBWorker worker = new DBWorker();
 		log = (String)session.getAttribute("user");
 		pass = (String)session.getAttribute("userPass");
-		out.write("<br>" + worker.getLog());
+		//out.write("<br>" + worker.getLog());
 		if (log != null && pass != null){
 			out.write("<br><font size = 12 color='green'><center>Hi, " + worker.getName(log,pass)+ "</font><br><br>");
 		}
@@ -38,7 +38,7 @@ if (session != null) {
 	
 		if (log != null){
 			DBWorker worker = new DBWorker();
-			out.write("<br>" + worker.getLog());
+			//out.write("<br>" + worker.getLog());
 			if (worker.userExists(log)){
 				accessGranted = worker.correctPass(log, pass); 
 				showLoginForm = ((attempt == 0) || (!accessGranted && attempt < 3));

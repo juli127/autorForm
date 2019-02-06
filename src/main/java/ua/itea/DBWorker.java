@@ -46,7 +46,7 @@ public class DBWorker {
         String psw = "";
         Path FIRST_PROP_FILE_PATH = Paths.get(".", "/src/main/resources/config.properties").toAbsolutePath().normalize();
 
-        //get properties for connection
+        //get properties for connection ////////////////////
         try {
             Properties properties = new Properties();
             try {
@@ -83,7 +83,7 @@ public class DBWorker {
 
         log.append("<br>DBWorker: connString: " + connStr);
         System.out.println("DBWorker: connString: " + connStr);
-        //////////////////////////////////////////////
+        ///////////////end properties///////////////////////////////
 
         System.out.println("DBWorker: try to connect.....");
         try {
